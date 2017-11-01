@@ -1,0 +1,70 @@
+﻿.rside-menu {
+  width: auto;
+  height: 13em;
+  margin: 4.6em auto 0;
+  font-size: 0.9em;
+  line-height: 1.7em;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: fixed;
+  top: 50px;
+  right: -9.75em
+}
+
+  .rside-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+  }
+
+    .rside-menu ul li {
+      display: block;
+      background-color: #333;
+      height: 14em;
+      padding: 0.5em 0.3em;
+      position: relative;
+      -webkit-transition: -webkit-transform 0.5s,background-color .5s,color .5s;
+      transition: transform .5s,background-color .5s,color .5s;
+      -webkit-border-radius: 1.1em;
+      margin: 0.2em;
+      -webkit-transform: rotate(-90deg)
+    }
+
+      .rside-menu ul li:nth-child(1) {
+        background-color: #d4d4d4;
+        opacity: 1
+      }
+
+      .rside-menu ul li:nth-child(2) {
+        background-color: #d4d4d4;
+        opacity: 18
+      }
+
+      .rside-menu ul li:nth-child(3) {
+        background-color: #d4d4d4;
+        opacity: 1
+      }
+
+      .rside-menu ul li:nth-child(4) {
+        background-color: #d4d4d4;
+        opacity: 1
+      }
+
+      .rside-menu ul li:hover {
+        background-color: #cacaca;
+        opacity: 1;
+        -webkit-transform: translateX(1em);
+        transform: translateX(-1em) rotate(-90deg)
+      }
+
+      .rside-menu ul li a {
+        display: block;
+        color: #FFF;
+        text-decoration: none;
+        text-align-last: center;
+        font-size: 10pt;
+        font-family: "Open Sans";
+        letter-spacing: 0.3px;
+        padding-bottom: 0.5em
+      }
