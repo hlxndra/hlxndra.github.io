@@ -4167,17 +4167,14 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .brand-logo {
   float: left;
-  border: 15px solid;
-  border-color: #4DCACA #31A3A3 #1D8888;
   margin-right: 10px;
-  margin-top: -5px;
-  border-radius: 4px;
+  margin-top: -13px;
 }
 .brand-logo + .brand-text {
-  margin-left: 42px;
-  color: #2d353c;
-  font-size: 20px;
-  line-height: 20px;
+  margin-left: 1em;
+  font-size: 24px;
+  line-height: 25px;
+  font-weight: 600;
   display: block;
 }
 /* Navbar Mobile Toggle */
@@ -6182,6 +6179,8 @@ a.text-white:focus {
 }
 .pace {
   background: #2d353c;
+  width: 100%;
+  height: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -6189,20 +6188,23 @@ a.text-white:focus {
   -webkit-transition: opacity 1s;
   -o-transition: opacity 1s;
   transition: opacity 1s;
-  z-index: 1020;
+  z-index: 9000;
 }
 .pace-progress {
   position: fixed;
-  top: 0;
+  top: 50%;
   left: 0;
   right: 0;
   text-align: center;
   height: 2px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
   background: #00acac;
   -webkit-transition: width 1s;
   -o-transition: width 1s;
   transition: width 1s;
-  z-index: 2000;
+  z-index: 9001;
 }
 .pace:before {
   content: '';
@@ -8095,15 +8097,15 @@ a:focus {
   border-color: #DF8F19 #c47d15 #935e10;
 }
 .logoimage {
+  display: inline-block;
   height: 40px;
-  width: 51px;
-  border-radius: 20px;
+  width: 40px;
 }
 .logoimagefooter {
   display: block;
   margin: 0 auto 10px;
-  height: 40px;
-  width: 51px;
+  height: 50px;
+  width: 50px;
   border-radius: 20px;
 }
 .brand-logo {
@@ -8132,7 +8134,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  z-index: 9999;
+  z-index: 2000;
 }
 .rside__toggle {
   position: relative;
@@ -8193,9 +8195,9 @@ a:focus {
   transition: all ease-out;
 }
 .rside__item:nth-of-type(1) {
-  -webkit-transition-duration: 1000ms;
-       -o-transition-duration: 1000ms;
-          transition-duration: 1000ms;
+  -webkit-transition-duration: 800ms;
+       -o-transition-duration: 800ms;
+          transition-duration: 800ms;
 }
 .rside__item:nth-of-type(2) {
   -webkit-transition-duration: 800ms;
@@ -8219,7 +8221,8 @@ a:focus {
 .rside__item a {
   display: block;
   padding: 10px;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 600;
   text-align: center;
   color: #ffffff;
 }
@@ -8702,7 +8705,7 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    z-index: 9999;
+    z-index: 2000;
   }
   .rside__toggle {
     display: none;
@@ -9392,6 +9395,21 @@ p {
   }
   .header.navbar-small.navbar-transparent .navbar-collapse .navbar-nav > li > a {
     color: #8F8E8E;
+  }
+  .header .brand-logo {
+    float: left;
+    margin-right: 10px;
+    margin-top: -13px;
+  }
+  .header .brand-logo + .brand-text {
+    margin-left: 15px;
+    font-size: 22px;
+    line-height: 21px;
+    display: block;
+  }
+  .header .logoimage {
+    height: 45px;
+    width: 45px;
   }
   .navbar-transparent .navbar-collapse {
     background: #000;
