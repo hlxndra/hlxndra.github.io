@@ -19,95 +19,97 @@
   <!-- Stylesheets links -->
   <link rel="stylesheet" href="css/style.min.css">
 </head>
-<body>
 
-  <nav class="navbar navbar-default navbar-fixed-top main-nav">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html"><span>MDriven</span> World</a> <!-- <img alt="MDriven World" width="40" height="40" src="img/logo-small.png"> -->
-      </div>
+<body data-spy="scroll" data-offset="150">
+
+<nav class="navbar navbar-default navbar-fixed-top main-nav">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><span>MDriven</span> World</a>
+    </div>
   
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right main-nav__list">
-          <li class="active"><a href="#">intro <span class="sr-only">(current)</span></a></li>
-          <li class="dropdown">
-            <a href="#why" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">why?<span class="caret"></span></a>
-            <ul class="dropdown-menu dropdown-menu__choose">
-              <li><a href="#">Gist</a></li>
-              <li><a href="#">Modernity</a></li>
-              <li><a href="#">Fashion</a></li>
-            </ul>
-          </li>
-          <li><a href="#">your gist</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">products<span class="caret"></span></a>
-            <ul class="dropdown-menu dropdown-menu__choose ">
-              <li><a href="#">MDriven Turnkey</a></li>
-              <li><a href="#">MDriven Server</a></li>
-              <li><a href="#">MDriven Designer</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">services<span class="caret"></span></a>
-            <ul class="dropdown-menu dropdown-menu__choose">
-              <li><a href="#">MDriven e-book </a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">price<span class="caret"></span></a>
-            <ul class="dropdown-menu dropdown-menu__choose">
-              <li><a href="#">MCoins</a></li>
-              <li><a href="#">Partner program</a></li>
-              <li><a href="#">Enterprise Licensing</a></li>
-            </ul>
-          </li>
-          <li><a href="#">portal</a></li>
-          <li><a href="https://portal.mdriven.net">portal</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right main-nav__list">
+        <li class="active"><a href="#hero">intro <span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">why?<span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-menu__choose">
+            <li><a href="#why">Gist</a></li>
+            <li><a href="#">Modernity</a></li>
+            <li><a href="#">Fashion</a></li>
+          </ul>
+        </li>
+        <li><a href="#yourgist">your gist</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">products<span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-menu__choose ">
+            <li><a href="#products">MDriven Turnkey</a></li>
+            <li><a href="#">MDriven Server</a></li>
+            <li><a href="#">MDriven Designer</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">services<span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-menu__choose">
+            <li><a href="#services">MDriven e-book</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">price<span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-menu__choose">
+            <li><a href="#">MCoins</a></li>
+            <li><a href="#">Partner program</a></li>
+            <li><a href="#">Enterprise Licensing</a></li>
+          </ul>
+        </li>
+        <li><a href="#">portal</a></li>
+        <li><a href="https://portal.mdriven.net">portal</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
-
-<!--Hero Section starts -->
- <div class="hero" id="intro">
-   <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6 wow flipInX_hero">
+<div class="hero" id="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6">
+        <div class="hero__item">
           <p class="hero__title">Knowledge is the thing that never gets old</p>
-          <a href="#" ><img src="img/hero_gist.png" class="hero__gist wow jackInTheBox" width="612" height="284" alt="Gist"></a>
+          <a href="#" class="hero__gist"><img src="img/icons/hero_gist.png" width="447" height="167" alt="Gist"></a>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6 wow flipInX_hero">
-          <a href="#"><img src="img/hero_modernity.png" class="hero__modern" width="301" height="289" alt="Modernity"></a>
-          <a href="#"><img src="img/hero_fashion.png" class="hero__fashion" width="210" height="298" alt="Fashion"></a>
-          <p href="#" class="hero__title--second">Once you Know - everything should (and can) follow in minutes</p>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6">
+        <div class="hero__item hero__item--second">
+          <a href="#" class="hero__modern"><img src="img/icons/hero_modernity.png" width="216" height="168" alt="Modernity"></a>
+          <a href="#" class="hero__fashion"><img src="img/icons/hero_fashion.png" width="143" height="176" alt="Fashion"></a>
+          <p class="hero__title hero__title--second">Once you Know - everything should (and can) follow in minutes.</p>
         </div>
       </div>
-   </div>
- </div>
-<!--Hero Section ends -->
+    </div>
+  </div>
+</div>
 
 <!--Why? Section starts -->
-
 <div class="why" id="why">
   <h2 class="visually-hidden">Why?</h2>
   <div class="container">
     <div class="row row__why ">
       <div class="col-md-6 col-sm-6 wow fadeInUp ">
         <h3 class="why__header">gist</h3>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur
-          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <p> <strong> Gist is your business specific knowledge. </strong> <br> It is your most important asset.
+           It is a non-static thing – it lives and evolves. It will survive technology shifts and it will become more valuable over time.
+          Avoid handing it over to legacy IT strategies, that will implement an incomplete snapshot of what you know with technology, that will be obsolete in three years.
+           True digitalization of this important asset can be surprisingly easy, flexible and fast.</p>
       </div>
       <div class="col-md-6 col-sm-6 wow fadeInUp">
         <video width="585" height="358" class="why__video" id="gist">
@@ -123,17 +125,18 @@
       </div>
       <div class="col-md-6 col-sm-6 wow fadeInUp">
         <h3 class="why__header why__header--right">modernity</h3>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur
-          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <p> <strong>Modernity is what we call everything that anchors your digitalization efforts in time. </strong>
+           Tools and technologies you use will evolve and become obsolete in three years – or maybe faster. Your Gist must not be hard-coded into this corrosive environment – but at the same time, you want to take full advantage of the best that technology can offer today.
+           Let your Gist stay intact and fully executed by today’s modernity now and future technology tomorrow.</p>
       </div>
     </div>
     <div class="row row__why">
       <div class="col-md-6 col-sm-6 wow fadeInUp">
         <h3 class="why__header">fashion</h3>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur
-          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <p> <strong>Fashion is the face of your system. </strong> <br> It is very important in order to get acceptance in your user base.
+          Fashion time-stamps your solutions more than anything else. You want to keep your fashion freedom and 
+          make it cheap and easy to upgrade this aspect of your system without involving modernity and gist.
+           After all – fashion is fun and appealing – not strictly defined and not engineered. Keep your zazz away from engineers with MDriven!</p>
       </div>
       <div class="col-md-6 col-sm-6 wow fadeInUp">
         <video width="585" height="358" class="why__video" id="fashion" >
@@ -143,339 +146,516 @@
     </div>
   </div>
 </div>
-
 <!--Why? Section ends -->
 
 <!--Your Gist Section starts -->
-
-  <div class="container-fluid yourgist wow fadeIn" id="yourgist">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <p class="yourgist__desc wow fadeInUp ">
-            Putting your Gist to work
-            <br>
-            <span>Capitalizing your know how</span>
-          </p>
+<div class="container-fluid yourgist wow fadeIn" id="yourgist">
+   <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="yourgist__desc wow fadeInUp ">
+          Putting your Gist to work
+          <br>
+          <span>Capitalizing your know how</span>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 col-md-4 wow fadeInUp">
+        <div class="yourgist__item">
+          <svg class="yourgist__img" width="150" height="150" alt="Web Application">
+            <use xlink:href="img/icons/icons.svg#web_app"> </use>
+          </svg>
+          <ul class="yourgist__list yourgist__list--hidden">
+            <li>Bootstrap</li>
+            <li>Angular</li>
+            <li>MVC</li>
+            <li>REST</li>
+          </ul>
+          <p>Web App</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-4 col-md-4 wow fadeInUp">
-          <div class="yourgist__item">
-            <svg class="yourgist__img" width="150" height="150" alt="Web Application">
-              <use xlink:href="img/icons.svg#web_app"> </use>
-            </svg>
-            <ul class="yourgist__list yourgist__list--hidden">
-              <li>Bootstrap</li>
-              <li>Angular</li>
-              <li>MVC</li>
-              <li>REST</li>
-            </ul>
-            <p>Web App</p>
-          </div>
-        </div>
-        <div class="col-sm-4 col-md-4 wow fadeInUp">
-          <div class="yourgist__item">
-            <svg class="yourgist__img" width="150" height="150" alt="Mobile Native">
-              <use xlink:href="img/icons.svg#mobile_native"> </use>
-            </svg>
-            <ul class="yourgist__list yourgist__list--hidden">
-              <li>Xamarin</li>
-              <li>Unity</li>
-              <li>.NET Core</li>
-              <li>REST</li>
-            </ul>
-            <p>Mobile Native</p>
-          </div>
-        </div>
-        <div class="col-sm-4 col-md-4 wow fadeInUp">
-          <div class="yourgist__item">
-            <svg class="yourgist__img" width="150" height="150" alt="Windows Native">
-              <use xlink:href="img/icons.svg#windows"> </use>
-            </svg>
-            <ul class="yourgist__list yourgist__list--hidden">
-              <li>.NET</li>
-              <li> WPF Xaml</li>
-              <li>Unity</li>
-            </ul>
-            <p>windows native</p>
-          </div>
+      <div class="col-sm-4 col-md-4 wow fadeInUp">
+        <div class="yourgist__item">
+          <svg class="yourgist__img" width="150" height="150" alt="Mobile Native">
+            <use xlink:href="img/icons/icons.svg#mobile_native"> </use>
+          </svg>
+          <ul class="yourgist__list yourgist__list--hidden">
+            <li>Xamarin</li>
+            <li>Unity</li>
+            <li>.NET Core</li>
+            <li>REST</li>
+          </ul>
+          <p>Mobile Native</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-2 wow fadeInUp">
-          <div class="yourgist__item">
-            <svg class="yourgist__img" width="150" height="150" alt="Other Platforms">
-              <use xlink:href="img/icons.svg#hololense"> </use>
-            </svg>
-            <ul class="yourgist__list yourgist__list--hidden">
-              <li>MacOS</li>
-              <li>Linux</li>
-              <li>Unity 3D</li>
-            </ul>
-            <p>Other platforms</p>
-          </div>
+      <div class="col-sm-4 col-md-4 wow fadeInUp">
+        <div class="yourgist__item">
+          <svg class="yourgist__img" width="150" height="150" alt="Windows Native">
+            <use xlink:href="img/icons/icons.svg#windows"> </use>
+          </svg>
+          <ul class="yourgist__list yourgist__list--hidden">
+            <li>.NET</li>
+            <li>WPF Xaml</li>
+            <li>Unity</li>
+          </ul>
+          <p>windows native</p>
         </div>
-        <div class="col-sm-4 col-md-4 wow fadeInUp">
-          <div class="yourgist__item">
-            <svg class="yourgist__img" width="150" height="150" alt="Persistence">
-              <use xlink:href="img/icons.svg#sql"> </use>
-            </svg>
-            <ul class="yourgist__list yourgist__list--hidden">
-              <li> SQLServer</li>
-              <li>MySQL</li>
-              <li> Easy for any ADO compliant DB driver</li>
-            </ul>
-            <p>Persistence</p>
-          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-2 wow fadeInUp">
+        <div class="yourgist__item">
+          <svg class="yourgist__img" width="150" height="150" alt="Other Platforms">
+            <use xlink:href="img/icons/icons.svg#hololense"> </use>
+          </svg>
+          <ul class="yourgist__list yourgist__list--hidden">
+            <li>MacOS</li>
+            <li>Linux</li>
+            <li>Unity 3D</li>
+          </ul>
+          <p>Other platforms</p>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4 wow fadeInUp">
+        <div class="yourgist__item">
+          <svg class="yourgist__img" width="150" height="150" alt="Persistence">
+            <use xlink:href="img/icons/icons.svg#sql"> </use>
+          </svg>
+          <ul class="yourgist__list yourgist__list--hidden">
+            <li> SQLServer</li>
+            <li>MySQL</li>
+            <li> Easy for any ADO compliant DB driver</li>
+          </ul>
+          <p>Persistence</p>
         </div>
       </div>
     </div>
   </div>
+</div>
 <!--Your Gist Section ends -->
 
 <!--Products Section starts -->
-
-  <div class="products wow fadeInUp">
-    <div class="container products__wrapper">
-      <h2>Our
-        <br>products</h2>
-      <svg class="turnkey">
-        <use xlink:href="img/products.svg#turnkey"></use>
-      </svg>
-      <svg class="server">
-        <use xlink:href="img/products.svg#server"></use>
-      </svg>
-      <svg class="designer">
-        <use xlink:href="img/products.svg#designer"></use>
-      </svg>
-    </div>
+<div class="products wow fadeInUp" id="products">
+  <div class="container products__wrapper">
+    <h2>Our<br>products</h2>
+    <svg class="turnkey">
+      <use xlink:href="img/icons/products.svg#turnkey"></use>
+    </svg>
+    <svg class="server">
+      <use xlink:href="img/icons/products.svg#server"></use>
+    </svg>
+    <svg class="designer">
+      <use xlink:href="img/icons/products.svg#designer"></use>
+    </svg>
   </div>
-  <!--Products Section edns -->
+</div>
+<!--Products Section edns -->
   
-  <!--Services Section starts -->
-  <div class="container-fluid services wow fadeIn" id="services">
-    <div class="container">
-      <div class="row services__title">
-        <div class="col-sm-4 col-md-4">
-          <h2>Our
-            <br> Services</h2>
-        </div>
-        <div class="col-sm-8 col-md-8">
-          <p>
-            We bring you the future in software system delivery,
-            <br> and we do it today
-          </p>
-        </div>
+<!--Services Section starts -->
+<div class="container-fluid services wow fadeIn" id="services">
+  <div class="container">
+    <div class="row services__title">
+      <div class="col-sm-4 col-md-4">
+        <h2>Our
+          <br>Services</h2>
       </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-4 wow fadeInUp">
-          <div class="services__item">
-            <div class="services__icon-wrapper">
-              <div class="services__icon">
-                <i class="fa fa-cog"></i>
-              </div>
-            </div>
-            <div class="services__info">
-              <h4>Model</h4>
-              <p>Model your information needs. Fold that information to views</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-4 wow fadeInUp">
-          <div class="services__item">
-            <div class="services__icon-wrapper">
-              <div class="services__icon ">
-                <i class="fa fa-paint-brush"></i>
-              </div>
-            </div>
-            <div class="services__info">
-              <h4>Clean & Careful Progress</h4>
-              <p>Catch the requirements as they come. Deliver a bit more functionality each day. Never stop</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-4 wow fadeInUp">
-          <div class="services__item">
-            <div class="services__icon-wrapper">
-              <div class="services__icon">
-                <i class="fa fa-file"></i>
-              </div>
-            </div>
-            <div class="services__info">
-              <h4>Document Knowledge</h4>
-              <p>The model is always 100% equal to your running system - this is the perfect place to learn about your business
-                as it evolves</p>
-            </div>
-          </div>
-        </div>
-      </div>
-  
-      <div class="row">
-        <div class="col-md-4 col-sm-4 wow fadeInUp">
-          <div class="services__item">
-            <div class="services__icon-wrapper">
-              <div class="services__icon">
-                <i class="fa fa-code"></i>
-              </div>
-            </div>
-            <div class="services__info">
-              <h4>Web First</h4>
-              <p>All systems built with MDriven runs in a web-browser. You can also run them with Windows presentation foundation</p>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col-md-4 col-sm-4 wow fadeInUp">
-          <div class="services__item">
-            <div class="services__icon-wrapper">
-              <div class="services__icon">
-                <i class="fa fa-cloud "></i>
-              </div>
-            </div>
-            <div class="services__info">
-              <h4>Cloud based</h4>
-              <p>Systems run Microsoft Azure Cloud or on-premise if you want</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-4 wow fadeInUp">
-          <div class="services__item">
-            <div class="services__icon-wrapper">
-              <div class="services__icon">
-                <i class="fa fa-heart "></i>
-              </div>
-            </div>
-            <div class="services__info">
-              <h4>Easy start</h4>
-              <p>Everything you need within minutes</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="services__btn">
-        <a href="https://portal.mdriven.net" type="button" class="btn-mdriven--outline">Try it out</a>
-        <p class="btn-desc">Run example Gist</p>
+      <div class="col-sm-8 col-md-8">
+        <p>We bring you the future in software system delivery,
+          <br> and we do it today</p>
       </div>
     </div>
-  </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-4 wow fadeInUp">
+        <div class="services__item">
+          <div class="services__icon-wrapper">
+            <div class="services__icon">
+              <i class="fa fa-cog"></i>
+            </div>
+          </div>
+          <div class="services__info">
+            <h4>Model</h4>
+            <p>Model your information needs. Fold that information to views</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4 wow fadeInUp">
+        <div class="services__item">
+          <div class="services__icon-wrapper">
+            <div class="services__icon ">
+              <i class="fa fa-paint-brush"></i>
+            </div>
+          </div>
+          <div class="services__info">
+            <h4>Clean & Careful Progress</h4>
+            <p>Catch the requirements as they come. Deliver a bit more functionality each day. Never stop</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4 wow fadeInUp">
+        <div class="services__item">
+          <div class="services__icon-wrapper">
+            <div class="services__icon">
+              <i class="fa fa-file"></i>
+            </div>
+          </div>
+          <div class="services__info">
+            <h4>Document Knowledge</h4>
+            <p>The model is always 100% equal to your running system - this is the perfect place to learn about your businessas
+              it evolves</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-4 wow fadeInUp">
+        <div class="services__item">
+          <div class="services__icon-wrapper">
+            <div class="services__icon">
+              <i class="fa fa-code"></i>
+            </div>
+          </div>
+          <div class="services__info">
+            <h4>Web First</h4>
+            <p>All systems built with MDriven runs in a web-browser. You can also run them with Windows presentation foundation</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4 wow fadeInUp">
+        <div class="services__item">
+          <div class="services__icon-wrapper">
+            <div class="services__icon">
+              <i class="fa fa-cloud "></i>
+            </div>
+          </div>
+          <div class="services__info">
+            <h4>Cloud based</h4>
+            <p>Systems run Microsoft Azure Cloud or on-premise if you want</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4 wow fadeInUp">
+        <div class="services__item">
+          <div class="services__icon-wrapper">
+            <div class="services__icon">
+              <i class="fa fa-heart "></i>
+            </div>
+          </div>
+          <div class="services__info">
+            <h4>Easy start</h4>
+            <p>Everything you need within minutes</p>
+          </div>
+        </div>
+        <div class="services__btn">
+          <a href="https://portal.mdriven.net" type="button" class="btn-mdriven--outline">Try it out</a>
+          <p class="btn-desc">Run example Gist</p>
+        </div>
+      </div>
+    </div>
 
-  <div class="container book wow fadeInUp">
-    <div class="book__info col-md-5 col-md-offset-1">
-      <p class="book__desc">If you want a deeper look into MDriven -
+    <div class="container book wow fadeInUp">
+      <div class="book__info col-md-5 col-md-offset-1">
+        <p class="book__desc">If you want a deeper look into MDriven -
           <br> check out the book</p>
-      <a href="#" type="button" class="btn-book--outline">Buy on Amazon</a>
-    </div>
-    <div class="book__img col-xs-12 col-sm-6 col-md-3 wow fadeInUp">
-      <img src="img/Book_dwnld.png" width="200" height="200" alt="Book">
+        <a href="#" type="button" class="btn-book--outline">Buy on Amazon</a>
+      </div>
+      <div class="book__img col-xs-12 col-sm-6 col-md-3 wow fadeInUp">
+        <img src="img/icons/book.png" width="200" height="200" alt="Download e-Book">
+      </div>
     </div>
   </div>
+</div>
+
+<div class="container-fluid quotes">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <h2>Testimonials</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="quotes-carousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#quotes-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#quotes-carousel" data-slide-to="1"></li>
+            <li data-target="#quotes-carousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Slides wrapper -->
+          <div class="carousel-inner" role="listbox">
+
+            <div class="col-md-offset-2 col-md-8 item active">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <img class="img-circle" src="#" width="100" height="100">
+                  </div>
+                  <div class="col-sm-9">
+                    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
+                    <small>Someone famous</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+
+            <div class="col-md-offset-2 col-md-8 item">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <img class="img-circle" src="#" width="100" height="100">
+                  </div>
+                  <div class="col-sm-9">
+                    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
+                    <small>Someone famous</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+
+            <div class="col-md-offset-2 col-md-8 item">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <img class="img-circle" src="#" width="100" height="100">
+                  </div>
+                  <div class="col-sm-9">
+                    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
+                    <small>Someone famous</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+
+
+            <a data-slide="prev" href="#quotes-carousel" class="left carousel-control" role="button">
+              <i class="fa fa-chevron-left"></i>
+            </a>
+            <a data-slide="next" href="#quotes-carousel" class="right carousel-control" role="button">
+              <i class="fa fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
   
 
+<!-- <div class="container-fluid test">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8 text-center">
+      <h2>Testimonials</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+          
+          <ol class="carousel-indicators">
+            <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#quote-carousel" data-slide-to="1"></li>
+            <li data-target="#quote-carousel" data-slide-to="2"></li>
+          </ol>
+        
+          <div class="carousel-inner">
+          
+
+            <div class="item active">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <img class="img-circle" src="#" style="width: 100px; height:100px;">
+                  </div>
+                  <div class="col-sm-9">
+                    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
+                    <small>Someone famous</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+    
+            <div class="item">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <img class="img-circle" src="#" style="width: 100px;height:100px;">
+                  </div>
+                  <div class="col-sm-9">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
+                    <small>Someone famous</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+  
+            <div class="item">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <img class="img-circle" src="#" style="width: 100px;height:100px;">
+                  </div>
+                  <div class="col-sm-9">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
+                    <small>Someone famous</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+          </div>
+          
+     
+          <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+          <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+        </div>                          
+      </div>
+    </div>
+  </div>
+</div> -->
 <!--Services Section ends-->
 
 <!--Education Section starts-->
-    <!-- <div class="container" >
-      <div class="row">
-        <div class="col-md-6 wow fadeInUp">
-        <p class="education__desc wow fadeInUp ">
-            Go check
-          <a href="https://www.youtube.com/user/hanskarlsen/featured?view_as=subscriber"><span class="fadeInUp"> YouTube channel</span> </a>
-        </p>
-        </div>
-        <div class="col-md-6 wow fadeInUp">
-         <h2 class="education_title wow fadeInUp">  Education & <br> Information</h2>
+<div class="container education wow fadeInUp">
+  <div class="row">
+    <div class="col-md-6 col-md-push-6 col-sm-6 col-sm-push-6">
+      <h2>education &
+        <br>information</h2>
+    </div>
+    <div class="col-md-6 col-md-pull-6 col-sm-6 col-sm-pull-6">
+      <p class="education__youtube">Go check
+        <a href="https://www.youtube.com/user/hanskarlsen/featured?view_as=subscriber" target="_blank">YouTube channel</a>
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 col-sm-12">
+      <ul class="nav nav-tabs">
+        <li role="presentation" class="active">
+          <a data-toggle="tab" href="#video1">What to expect
+            <br>from MDriven</a>
+        </li>
+        <li role="presentation">
+          <a data-toggle="tab" href="#video2">Million Times
+            <br>Faster</a>
+        </li>
+        <li role="presentation">
+          <a data-toggle="tab" href="#video3">MDriven Elevator
+            <br>Pitch</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="tab-content clearfix">
+      <div id="video1" class="tab-pane education__item fade in active">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <div class="education__video">
+              <iframe src="https://www.youtube.com/embed/TX2lF5doZP0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <p class="education__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem ipsa neque reprehenderit error? Dicta
+              cumque accusamus tempora, incidunt veniam quos voluptatum ipsam aspernatur? Illum, ea harum quam quos modi
+              perferendis.</p>
+          </div>
         </div>
       </div>
-      <div class="row row__education">
-        <div class="col-md-6 wow fadeInUp">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/TX2lF5doZP0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+      <div id="video2" class="tab-pane education__item fade in">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <div class="education__video">
+              <iframe src="https://www.youtube.com/embed/TX2lF5doZP0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <p class="education__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem ipsa neque reprehenderit error? Dicta
+              cumque accusamus tempora, incidunt veniam quos voluptatum ipsam aspernatur? Illum, ea harum quam quos modi
+              perferendis.</p>
+          </div>
         </div>
-        <div class="col-md-6 wow fadeInUp">
-            <h2 class="video_desc">Non-tech video</h2>
+      </div>
+      <div id="video1" class="tab-pane education__item fade in">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <div class="education__video">
+              <iframe src="https://www.youtube.com/embed/TX2lF5doZP0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <p class="education__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem ipsa neque reprehenderit error? Dicta
+              cumque accusamus tempora, incidunt veniam quos voluptatum ipsam aspernatur? Illum, ea harum quam quos modi
+              perferendis.</p>
+          </div>
         </div>
       </div>
     </div>
-   <div class="container-fluid row__wrapper wow fadeIn" >
-      <div class="container" >
-      <div class="row row__education">
-        <div class="col-md-6 wow fadeInUp">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZQ7fhwIFz98" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-        </div>
-        <div class="col-md-6 wow fadeInUp">
-            <h2 class="video_desc--2">Wow tech video</h2>
-        </div>
-      </div>
-    </div>
-    </div> -->
-
-
-
+  </div>
+</div>
 <!--Education Section ends-->
 
 <!--Side Navigation Bar starts -->
-  <nav class="side-nav side-nav--closed">
-    <ul class="side-nav__list">
-      <li class="side-nav__item"><a href="https://wiki.mdriven.net/">MDriven <span>Wiki</span></a></li>
-      <li class="side-nav__item"><a href="https://portal.mdriven.net/">MDriven <span>Portal</span></a></li>
-      <li class="side-nav__item"><a href="https://www.mdriven.net/">MDriven <span>World</span></a></li>
-      <li class="side-nav__item"><a href="http://www.new.capableobjects.com/">Capable <span>Object</span></a></li>
-    </ul>
-    <button class="btn side-nav__toggle" type="button"></button>
-  </nav>
+<nav class="side-nav side-nav--closed">
+  <ul class="side-nav__list">
+    <li class="side-nav__item"><a href="https://wiki.mdriven.net/">MDriven <span>Wiki</span></a></li>
+    <li class="side-nav__item"><a href="https://portal.mdriven.net/">MDriven <span>Portal</span></a></li>
+    <li class="side-nav__item"><a href="https://www.mdriven.net/">MDriven <span>World</span></a></li>
+    <li class="side-nav__item"><a href="http://www.capableobjects.com/">Capable <span>Object</span></a></li>
+  </ul>
+  <button class="btn side-nav__toggle" type="button"></button>
+</nav>
 <!--Side Navigation Bar ends -->
-  
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-
-  <footer class="footer">
-    <div class="container">
-      <img src="img/logo-small.png" width="50" height="50" alt="MDriven" class="footer__logo">  
-      <p class="footer__title">
-        <span>MDriven</span> World</p>
-      <p class="footer__copyright">© Copyright MDriven World 2014-2017<br>
-        MDriven.net Created by<a href="http://www.capableobjects.com/">CapableObject.com</a>
-      </p>
-    </div>
-    <ul class="footer__socials">
-      <li><a href="#" class="fa fa-facebook" target="_blank"><span class="sr-only">Facebook link</span></a></li>
-      <li><a href="#" class="fa fa-instagram" target="_blank"><span class="sr-only">Instagram link</span></a></li>
-      <li><a href="#" class="fa fa-twitter" target="_blank"><span class="sr-only">Twitter link</span></a></li>
-      <li><a href="#" class="fa fa-google-plus" target="_blank"><span class="sr-only">Google Plus link</span></a></li>
-      <li><a href="#" class="fa fa-dribbble" target="_blank"><span class="sr-only">Dribbble link</span></a></li>
-    </ul>
-  </footer>
 
 
-  <script src="libs/jquery/dist/jquery.min.js"></script>
-  <script src="libs/bootstrap-sass/javascripts/bootstrap.min.js"></script>
-  <script src="libs/waypoints/lib/jquery.waypoints.min.js"></script>
-  <script src="libs/wow/dist/wow.min.js"></script>
-  <script async src="js/scripts.min.js"></script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- Footer start -->
+<footer class="footer">
+  <div class="container">
+    <img src="img/logo-small.png" width="50" height="50" alt="MDriven" class="footer__logo">  
+    <p class="footer__title">
+      <span>MDriven</span> World</p>
+    <p class="footer__copyright">© Copyright MDriven World 2014-2017<br>
+      MDriven.net Created by<a href="http://www.capableobjects.com/">CapableObject.com</a>
+    </p>
+  </div>
+  <ul class="footer__socials">
+    <li><a href="#" class="fa fa-facebook" target="_blank"><span class="sr-only">Facebook link</span></a></li>
+    <li><a href="#" class="fa fa-instagram" target="_blank"><span class="sr-only">Instagram link</span></a></li>
+    <li><a href="#" class="fa fa-twitter" target="_blank"><span class="sr-only">Twitter link</span></a></li>
+    <li><a href="#" class="fa fa-google-plus" target="_blank"><span class="sr-only">Google Plus link</span></a></li>
+    <li><a href="#" class="fa fa-dribbble" target="_blank"><span class="sr-only">Dribbble link</span></a></li>
+  </ul>
+</footer>
+<!-- Footer end -->
+
+
+<script src="libs/jquery/dist/jquery.min.js"></script>
+<script src="libs/bootstrap-sass/javascripts/bootstrap.min.js"></script>
+<script src="libs/waypoints/lib/jquery.waypoints.min.js"></script>
+<script src="libs/wow/dist/wow.min.js"></script>
+<script src="js/scripts.js"></script>
+
 </body>
 </html>
